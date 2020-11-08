@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Content from "./Content";
 import { Grid } from "@material-ui/core";
 
 const App = () => {
@@ -11,8 +12,7 @@ const App = () => {
       <Grid item container>
         <Grid item xs={false} sm={2} />
         <Grid item xs={12} sm={8}>
-          this is where manin content goes this is where manin content goes this
-          is where manin content goes this is where manin content goes
+          <Content />
         </Grid>
 
         <Grid item xs={false} sm={2} />
